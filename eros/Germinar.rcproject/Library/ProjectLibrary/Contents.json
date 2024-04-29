@@ -1,0 +1,22 @@
+[
+  {
+    "format" : "model",
+    "displayName" : "Beaner.usdz",
+    "libraryIdentifier" : "5f3e62d1a25651205835dfe9261458a9"
+  },
+  {
+    "libraryIdentifier" : "20bb696052c006ba8b87764332629b87",
+    "displayName" : "Plastic_cup_from_Poly_by_Google.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "cdda0e9b022e2773f4d43c35f424e992",
+    "displayName" : "Clouds.usdz"
+  },
+  {
+    "displayName" : "Decimated_Sprout.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "70e3621cc97349cd18b058bc2fee9c18"
+  }
+]

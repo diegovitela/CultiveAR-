@@ -1,0 +1,17 @@
+[
+  {
+    "libraryIdentifier" : "58c492dc9dae515bd78d1ccb7956464a",
+    "format" : "model",
+    "displayName" : "flower_pot.usdz"
+  },
+  {
+    "displayName" : "Beaner.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "5f3e62d1a25651205835dfe9261458a9"
+  },
+  {
+    "displayName" : "Decimated_Sprout.usdz",
+    "libraryIdentifier" : "70e3621cc97349cd18b058bc2fee9c18",
+    "format" : "model"
+  }
+]

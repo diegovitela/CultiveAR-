@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060BBC472B6C300200974333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BBC462B6C300200974333 /* AppDelegate.swift */; };
+		060BBC492B6C300200974333 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BBC482B6C300200974333 /* ContentView.swift */; };
+		060BBC4B2B6C300200974333 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 060BBC4A2B6C300200974333 /* Experience.rcproject */; };
+		060BBC4D2B6C300500974333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060BBC4C2B6C300500974333 /* Assets.xcassets */; };
+		060BBC502B6C300500974333 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060BBC4F2B6C300500974333 /* Preview Assets.xcassets */; };
+		060BBC5A2B6C300500974333 /* erosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BBC592B6C300500974333 /* erosTests.swift */; };
+		060BBC642B6C300500974333 /* erosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BBC632B6C300500974333 /* erosUITests.swift */; };
+		060BBC662B6C300500974333 /* erosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BBC652B6C300500974333 /* erosUITestsLaunchTests.swift */; };
+		060BBC732B6C305600974333 /* Frijol.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 060BBC722B6C305500974333 /* Frijol.rcproject */; };
+		060BBCEE2B6C5C7100974333 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BBCED2B6C5C7100974333 /* ARView.swift */; };
+		060BBCF02B6C5D9000974333 /* lechuga.png in Resources */ = {isa = PBXBuildFile; fileRef = 060BBCEF2B6C5D9000974333 /* lechuga.png */; };
+		06EAEF852B755AF9004FCC46 /* CultivA.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF842B755AF9004FCC46 /* CultivA.rcproject */; };
+		06EAEF872B76C453004FCC46 /* Recipiente.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF862B76C452004FCC46 /* Recipiente.rcproject */; };
+		06EAEF892B76C530004FCC46 /* Frijolito.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF882B76C530004FCC46 /* Frijolito.rcproject */; };
+		06EAEF8B2B76C59D004FCC46 /* Algodon .rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF8A2B76C59D004FCC46 /* Algodon .rcproject */; };
+		06EAEF8D2B76C6CF004FCC46 /* Regar.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF8C2B76C6CF004FCC46 /* Regar.rcproject */; };
+		06EAEF8F2B76E098004FCC46 /* Final.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF8E2B76E098004FCC46 /* Final.rcproject */; };
+		06EAEF922B76E0BF004FCC46 /* Transplante.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF902B76E0BF004FCC46 /* Transplante.rcproject */; };
+		06EAEF932B76E0BF004FCC46 /* Germinar.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF912B76E0BF004FCC46 /* Germinar.rcproject */; };
+		06EAEF952B76F59B004FCC46 /* Culti.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF942B76F59B004FCC46 /* Culti.rcproject */; };
+		06EAEF972B77D232004FCC46 /* notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EAEF962B77D232004FCC46 /* notification.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		060BBC562B6C300500974333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060BBC3B2B6C300200974333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060BBC422B6C300200974333;
+			remoteInfo = eros;
+		};
+		060BBC602B6C300500974333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060BBC3B2B6C300200974333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060BBC422B6C300200974333;
+			remoteInfo = eros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060BBC432B6C300200974333 /* eros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		060BBC462B6C300200974333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		060BBC482B6C300200974333 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		060BBC4A2B6C300200974333 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		060BBC4C2B6C300500974333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		060BBC4F2B6C300500974333 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		060BBC552B6C300500974333 /* erosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = erosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		060BBC592B6C300500974333 /* erosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = erosTests.swift; sourceTree = "<group>"; };
+		060BBC5F2B6C300500974333 /* erosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = erosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		060BBC632B6C300500974333 /* erosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = erosUITests.swift; sourceTree = "<group>"; };
+		060BBC652B6C300500974333 /* erosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = erosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		060BBC722B6C305500974333 /* Frijol.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Frijol.rcproject; sourceTree = "<group>"; };
+		060BBCED2B6C5C7100974333 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		060BBCEF2B6C5D9000974333 /* lechuga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lechuga.png; sourceTree = "<group>"; };
+		06EAEF842B755AF9004FCC46 /* CultivA.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = CultivA.rcproject; path = ../../../../Downloads/CultivA.rcproject; sourceTree = "<group>"; };
+		06EAEF862B76C452004FCC46 /* Recipiente.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Recipiente.rcproject; sourceTree = "<group>"; };
+		06EAEF882B76C530004FCC46 /* Frijolito.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Frijolito.rcproject; sourceTree = "<group>"; };
+		06EAEF8A2B76C59D004FCC46 /* Algodon .rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "Algodon .rcproject"; sourceTree = "<group>"; };
+		06EAEF8C2B76C6CF004FCC46 /* Regar.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Regar.rcproject; sourceTree = "<group>"; };
+		06EAEF8E2B76E098004FCC46 /* Final.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Final.rcproject; sourceTree = "<group>"; };
+		06EAEF902B76E0BF004FCC46 /* Transplante.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Transplante.rcproject; sourceTree = "<group>"; };
+		06EAEF912B76E0BF004FCC46 /* Germinar.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Germinar.rcproject; sourceTree = "<group>"; };
+		06EAEF942B76F59B004FCC46 /* Culti.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Culti.rcproject; sourceTree = "<group>"; };
+		06EAEF962B77D232004FCC46 /* notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notification.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060BBC402B6C300200974333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060BBC522B6C300500974333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060BBC5C2B6C300500974333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060BBC3A2B6C300200974333 = {
+			isa = PBXGroup;
+			children = (
+				060BBC452B6C300200974333 /* eros */,
+				060BBC582B6C300500974333 /* erosTests */,
+				060BBC622B6C300500974333 /* erosUITests */,
+				060BBC442B6C300200974333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		060BBC442B6C300200974333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				060BBC432B6C300200974333 /* eros.app */,
+				060BBC552B6C300500974333 /* erosTests.xctest */,
+				060BBC5F2B6C300500974333 /* erosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		060BBC452B6C300200974333 /* eros */ = {
+			isa = PBXGroup;
+			children = (
+				060BBC462B6C300200974333 /* AppDelegate.swift */,
+				060BBC482B6C300200974333 /* ContentView.swift */,
+				06EAEF962B77D232004FCC46 /* notification.swift */,
+				060BBCED2B6C5C7100974333 /* ARView.swift */,
+				06EAEF942B76F59B004FCC46 /* Culti.rcproject */,
+				06EAEF842B755AF9004FCC46 /* CultivA.rcproject */,
+				06EAEF912B76E0BF004FCC46 /* Germinar.rcproject */,
+				06EAEF902B76E0BF004FCC46 /* Transplante.rcproject */,
+				06EAEF882B76C530004FCC46 /* Frijolito.rcproject */,
+				06EAEF8A2B76C59D004FCC46 /* Algodon .rcproject */,
+				06EAEF862B76C452004FCC46 /* Recipiente.rcproject */,
+				060BBC4A2B6C300200974333 /* Experience.rcproject */,
+				06EAEF8E2B76E098004FCC46 /* Final.rcproject */,
+				060BBC722B6C305500974333 /* Frijol.rcproject */,
+				06EAEF8C2B76C6CF004FCC46 /* Regar.rcproject */,
+				060BBCEF2B6C5D9000974333 /* lechuga.png */,
+				060BBC4C2B6C300500974333 /* Assets.xcassets */,
+				060BBC4E2B6C300500974333 /* Preview Content */,
+			);
+			path = eros;
+			sourceTree = "<group>";
+		};
+		060BBC4E2B6C300500974333 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				060BBC4F2B6C300500974333 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		060BBC582B6C300500974333 /* erosTests */ = {
+			isa = PBXGroup;
+			children = (
+				060BBC592B6C300500974333 /* erosTests.swift */,
+			);
+			path = erosTests;
+			sourceTree = "<group>";
+		};
+		060BBC622B6C300500974333 /* erosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				060BBC632B6C300500974333 /* erosUITests.swift */,
+				060BBC652B6C300500974333 /* erosUITestsLaunchTests.swift */,
+			);
+			path = erosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		060BBC422B6C300200974333 /* eros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060BBC692B6C300500974333 /* Build configuration list for PBXNativeTarget "eros" */;
+			buildPhases = (
+				060BBC3F2B6C300200974333 /* Sources */,
+				060BBC402B6C300200974333 /* Frameworks */,
+				060BBC412B6C300200974333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eros;
+			productName = eros;
+			productReference = 060BBC432B6C300200974333 /* eros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		060BBC542B6C300500974333 /* erosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060BBC6C2B6C300500974333 /* Build configuration list for PBXNativeTarget "erosTests" */;
+			buildPhases = (
+				060BBC512B6C300500974333 /* Sources */,
+				060BBC522B6C300500974333 /* Frameworks */,
+				060BBC532B6C300500974333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060BBC572B6C300500974333 /* PBXTargetDependency */,
+			);
+			name = erosTests;
+			productName = erosTests;
+			productReference = 060BBC552B6C300500974333 /* erosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		060BBC5E2B6C300500974333 /* erosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060BBC6F2B6C300500974333 /* Build configuration list for PBXNativeTarget "erosUITests" */;
+			buildPhases = (
+				060BBC5B2B6C300500974333 /* Sources */,
+				060BBC5C2B6C300500974333 /* Frameworks */,
+				060BBC5D2B6C300500974333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060BBC612B6C300500974333 /* PBXTargetDependency */,
+			);
+			name = erosUITests;
+			productName = erosUITests;
+			productReference = 060BBC5F2B6C300500974333 /* erosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060BBC3B2B6C300200974333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					060BBC422B6C300200974333 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					060BBC542B6C300500974333 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 060BBC422B6C300200974333;
+					};
+					060BBC5E2B6C300500974333 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 060BBC422B6C300200974333;
+					};
+				};
+			};
+			buildConfigurationList = 060BBC3E2B6C300200974333 /* Build configuration list for PBXProject "eros" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060BBC3A2B6C300200974333;
+			productRefGroup = 060BBC442B6C300200974333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				060BBC422B6C300200974333 /* eros */,
+				060BBC542B6C300500974333 /* erosTests */,
+				060BBC5E2B6C300500974333 /* erosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060BBC412B6C300200974333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060BBC502B6C300500974333 /* Preview Assets.xcassets in Resources */,
+				060BBCF02B6C5D9000974333 /* lechuga.png in Resources */,
+				060BBC4D2B6C300500974333 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060BBC532B6C300500974333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060BBC5D2B6C300500974333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060BBC3F2B6C300200974333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EAEF852B755AF9004FCC46 /* CultivA.rcproject in Sources */,
+				060BBCEE2B6C5C7100974333 /* ARView.swift in Sources */,
+				06EAEF932B76E0BF004FCC46 /* Germinar.rcproject in Sources */,
+				060BBC732B6C305600974333 /* Frijol.rcproject in Sources */,
+				06EAEF8F2B76E098004FCC46 /* Final.rcproject in Sources */,
+				060BBC492B6C300200974333 /* ContentView.swift in Sources */,
+				06EAEF8B2B76C59D004FCC46 /* Algodon .rcproject in Sources */,
+				060BBC472B6C300200974333 /* AppDelegate.swift in Sources */,
+				06EAEF922B76E0BF004FCC46 /* Transplante.rcproject in Sources */,
+				06EAEF8D2B76C6CF004FCC46 /* Regar.rcproject in Sources */,
+				06EAEF952B76F59B004FCC46 /* Culti.rcproject in Sources */,
+				06EAEF972B77D232004FCC46 /* notification.swift in Sources */,
+				060BBC4B2B6C300200974333 /* Experience.rcproject in Sources */,
+				06EAEF872B76C453004FCC46 /* Recipiente.rcproject in Sources */,
+				06EAEF892B76C530004FCC46 /* Frijolito.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060BBC512B6C300500974333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060BBC5A2B6C300500974333 /* erosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060BBC5B2B6C300500974333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060BBC642B6C300500974333 /* erosUITests.swift in Sources */,
+				060BBC662B6C300500974333 /* erosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		060BBC572B6C300500974333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060BBC422B6C300200974333 /* eros */;
+			targetProxy = 060BBC562B6C300500974333 /* PBXContainerItemProxy */;
+		};
+		060BBC612B6C300500974333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060BBC422B6C300200974333 /* eros */;
+			targetProxy = 060BBC602B6C300500974333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		060BBC672B6C300500974333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		060BBC682B6C300500974333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060BBC6A2B6C300500974333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eros/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diego.eros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		060BBC6B2B6C300500974333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eros/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diego.eros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		060BBC6D2B6C300500974333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diego.erosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eros.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eros";
+			};
+			name = Debug;
+		};
+		060BBC6E2B6C300500974333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diego.erosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eros.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eros";
+			};
+			name = Release;
+		};
+		060BBC702B6C300500974333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diego.erosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eros;
+			};
+			name = Debug;
+		};
+		060BBC712B6C300500974333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diego.erosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eros;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060BBC3E2B6C300200974333 /* Build configuration list for PBXProject "eros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060BBC672B6C300500974333 /* Debug */,
+				060BBC682B6C300500974333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060BBC692B6C300500974333 /* Build configuration list for PBXNativeTarget "eros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060BBC6A2B6C300500974333 /* Debug */,
+				060BBC6B2B6C300500974333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060BBC6C2B6C300500974333 /* Build configuration list for PBXNativeTarget "erosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060BBC6D2B6C300500974333 /* Debug */,
+				060BBC6E2B6C300500974333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060BBC6F2B6C300500974333 /* Build configuration list for PBXNativeTarget "erosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060BBC702B6C300500974333 /* Debug */,
+				060BBC712B6C300500974333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 060BBC3B2B6C300200974333 /* Project object */;
+}
